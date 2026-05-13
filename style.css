@@ -14,7 +14,8 @@ header {
 }
 
 #inicio img {
-  max-width: 700px;
+  width: 70%;
+  
 }
 
 nav ul {
@@ -37,10 +38,20 @@ nav a:hover {
 }
 
 /* selecion*/
+
 section {
   padding: 60px 30px;
   max-width: 900px;
   margin: 0 auto;
+  
+ 
+}
+#inicio {
+  padding: 60px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
 }
 
 
