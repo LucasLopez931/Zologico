@@ -1,0 +1,235 @@
+/* fondo */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* menu*/
+header {
+  background-color: #348d34;
+  padding: 15px 30px;
+}
+
+#inicio img {
+  max-width: 700px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+/* enlaces */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* selecion*/
+section {
+  padding: 60px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+#inicio {
+  text-align: center;
+  background-color: #e8f5e8;
+  max-width: 100%;
+  padding: 80px 30px;
+}
+
+#inicio h1 {
+  font-size: 48px;
+  color: #3e8f3e;
+  margin-bottom: 10px;
+}
+
+#inicio p {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Botón  */
+#inicio a {
+  background-color: #349734;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#inicio a:hover {
+  background-color: #1e4d1e;
+}
+
+/* Título */
+h2 {
+  font-size: 32px;
+  color: #2d6a2d;
+  margin-bottom: 10px;
+}
+
+/* cuadrado animales*/
+.tarjetas {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 180px;
+  text-align: center;
+}
+
+.emoji-animal {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.tarjeta h3 {
+  margin: 0 0 8px 0;
+  color: #2d6a2d;
+}
+
+.tarjeta p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* calculadora */
+#calculadora {
+  background-color: #f0f8f0;
+  max-width: 100%;
+}
+
+#calculadora>* {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formulario-calc {
+  max-width: 400px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.formulario-calc label {
+  font-weight: bold;
+  color: #333;
+}
+
+.formulario-calc input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* boton de abajo */
+button {
+  background-color: #2d6a2d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1e4d1e;
+}
+
+
+#resultado {
+  background-color: white;
+  border: #2d6a2d;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 15px;
+  display: none;
+}
+
+/* contacto */
+#formulario-contacto {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+#formulario-contacto label {
+  font-weight: bold;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+/* Mensaje */
+#mensaje-resultado {
+  color: green;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* parte de abajo*/
+footer {
+  background-color: #2d6a2d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tarjetas {
+    flex-direction: column;
+  }
+
+  .tarjeta {
+    width: 100%;
+  }
+
+  #inicio h1 {
+    font-size: 32px;
+  }
+}
